@@ -1,0 +1,19 @@
+{
+  "name": "revolt.settings.defaults",
+  "homepage": "https://github.com/revolt-framework/settings.defaults",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Global default settings for the Revolt framework.",
+  "main": "_settings.defaults.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css"
+  ],
+  "license": "MIT"
+}

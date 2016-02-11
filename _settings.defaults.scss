@@ -1,0 +1,59 @@
+//
+// REVOLT!
+// SETTINGS.DEFAULTS
+//
+// Here we define a few variables and settings that are required for using the
+// rest of the framework out-of-the-box, without overwriting module variables.
+//
+
+
+
+// Namespaces
+//
+// Would you like the framework's classes to be prepended with namespaces?
+// If so, define them here.
+//
+// 1. Generic namespace for all classes declared by the framework.
+// 2. Namespace for a specific layer of the framework.
+
+$revo-namespace:               '' !default; // [1]
+$revo-objects-namespace:       $revo-namespace + 'o-' !default; // [2]
+$revo-components-namespace:    $revo-namespace + 'c-' !default; // [2]
+$revo-trumps-namespace:        $revo-namespace + 'u-' !default; // [2]
+
+
+
+// Auto Enable
+//
+// Should module features be auto enabled?
+
+$revo-auto-enable:    true !default;
+
+
+
+// Typography
+//
+// 1. Set a root font size for the entire document.
+// 2. Set a base font size for all relative and non-rem sizes.
+
+$revo-root-font-size:      16px !default; // [1]
+$revo-base-font-size:      1rem !default; // [2]
+$revo-base-line-height:    1.6 !default;
+
+
+
+// Main Colors
+
+$revo-base-color:           #333 !default;
+$revo-base-bg:              #fff !default;
+$revo-base-border-color:    #ccc !default;
+
+
+
+// Spacing
+//
+// These variables can be used as spacing units throughout your project.
+
+$revo-spacer:      ($revo-base-font-size * $revo-base-line-height) !default;
+$revo-spacer-x:    $revo-spacer !default;
+$revo-spacer-y:    $revo-spacer !default;
